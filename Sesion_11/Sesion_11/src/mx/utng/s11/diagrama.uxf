@@ -1,0 +1,34 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>660</x><y>10</y><w>150</w><h>160</h></coordinates><panel_attributes>FiguraPlana
+--
+-BASE:double
+-ALTURA:double
+--
+
+&lt;&lt;Constructor&gt;&gt; +FiguraPlana(double double)
++getBASE()double
++getALTURA()double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>380</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+Dependencia - usa</panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>430</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Asociacion - tiene</panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element><element><id>Relation</id><coordinates><x>10</x><y>480</y><w>260</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Generalizacion - es un</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>530</y><w>270</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Implementacion - se comporta como</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Relation</id><coordinates><x>10</x><y>580</y><w>270</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+Composicion - se compone de</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Relation</id><coordinates><x>10</x><y>620</y><w>270</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Agregacion - puede contener</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>160</y><w>300</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es un</panel_attributes><additional_attributes>280;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>260</y><w>150</w><h>90</h></coordinates><panel_attributes>Cuadrado
+--
+
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>160</y><w>70</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es una</panel_attributes><additional_attributes>10;10;20;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>890</x><y>270</y><w>150</w><h>90</h></coordinates><panel_attributes>Circulo
+--
+
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>160</y><w>210</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es un</panel_attributes><additional_attributes>10;10;190;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>260</y><w>290</w><h>100</h></coordinates><panel_attributes>Triangulo
+--
+-ESTILO:String
+--
+&lt;&lt;Constructor&gt;&gt; +Triangulo(double, double, String)
++area():double
++mostrarEstilo():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>20</y><w>160</w><h>90</h></coordinates><panel_attributes>Herencia
+--
+--
++main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>80</y><w>80</w><h>260</h></coordinates><panel_attributes>lt=&lt;-
+Usa</panel_attributes><additional_attributes>60;240;10;240;10;10;60;10</additional_attributes></element></diagram>

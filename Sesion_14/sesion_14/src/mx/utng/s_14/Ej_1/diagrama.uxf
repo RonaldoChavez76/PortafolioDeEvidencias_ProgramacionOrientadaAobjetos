@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>90</x><y>0</y><w>250</w><h>140</h></coordinates><panel_attributes>/Persona/
+--
+-nombre:String
+-apellidos:String
+--
+&lt;&lt;Constructor&gt;&gt;+Persona(String, String)
++mostrarDatos():void
+/+vivir():void/
+todo setters
+todo getters
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>230</y><w>280</w><h>120</h></coordinates><panel_attributes>Profesor
+--
+-idProfesor:String
+--
+&lt;&lt;Constructor&gt;&gt;+Profesor(String, String, String)
+&lt;&lt;Override&gt;&gt;+mostrsrDatos():void
+&lt;&lt;Override&gt;&gt;+vivir():void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>130</y><w>70</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es una</panel_attributes><additional_attributes>20;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>430</y><w>380</w><h>100</h></coordinates><panel_attributes>ProfesorInterino
+--
+-fechaTerminacion:LocalDate
+--
+&lt;&lt;Constructor&gt;&gt;+ProfesorInterino(String, String, String, LocalDate)
+&lt;&lt;Override&gt;&gt;+vivir():void
+&lt;&lt;Override&gt;&gt;+mostrarDatos():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>340</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es un</panel_attributes><additional_attributes>10;10;60;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>150</y><w>150</w><h>70</h></coordinates><panel_attributes>Polimorfismo
+--
+--
+_+main(String)[]:void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>170</y><w>150</w><h>120</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;100;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>170</y><w>140</w><h>280</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;260;120;10</additional_attributes></element></diagram>
